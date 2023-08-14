@@ -19,7 +19,7 @@ module.exports = function shopView (shopName, state) {
             actions.setPage('clicker');
           }
         }, 'Zurück'),
-        h('div.shop-menu-info', formatNumber(counter, 0) + ' Commits')
+        h('div.shop-menu-info', formatNumber(counter, 0) + ' Nachverfolgbarkeitsverbindungen')
       ]),
       h('h2.shop-title', shop.title),
       h('div.shop-description', shop.description),
@@ -37,7 +37,7 @@ module.exports = function shopView (shopName, state) {
               e.target.blur();
               actions.buy(shopName, item.key);
             }
-          }, 'Kaufen (' + formatNumber(cost, 0) + ' Commits)')
+          }, 'Kaufen (' + formatNumber(cost, 0) + ' Nachverfolgbarkeitsverbindungen)')
         ]);
       }))
     ])

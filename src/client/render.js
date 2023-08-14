@@ -16,7 +16,7 @@ module.exports = function render (state) {
       main = clickerView(state);
       break;
     case 'how-to-play':
-      main = textView('Wie man spielt', 'Klicken Sie auf das Bild, um Commits zu erhalten. Eignen Sie sich neue Fähigkeiten an, um mehr Commits pro Klick zu bekommen. Kaufen Sie Systeme für ein stetiges Einkommen. Das war\'s, haben Sie viel Spaß!');
+      main = textView('Wie man spielt', 'Klicken Sie auf das Bild, um Nachverfolgbarkeitsverbindungen zu erhalten. Eignen Sie sich neue Fähigkeiten an, um mehr Nachverfolgbarkeitsverbindungen pro Klick zu bekommen. Kaufen Sie Systeme für ein stetiges Einkommen. Das war\'s, haben Sie viel Spaß!');
       break;
     case 'about':
       main = textView('Über', 'Dieses Projekt habe ich in einer Vorlesung begonnen. Es soll niemanden angreifen; falls Sie Fragen oder Vorschläge haben, schreiben Sie mir doch einen E-Brief an paul (Punkt) brinkmeier (Bei) gmail (Punkt) com.');
@@ -30,7 +30,7 @@ module.exports = function render (state) {
     h('section.topbar', [
       h('div.container', [
         h('h1.topbar-title', [
-          rainbowSpans('Tichy-Klicker')
+          rainbowSpans('Tobias-Klicker')
         ]),
         h('div.topbar-links', [
           h('a.topbar-link', {

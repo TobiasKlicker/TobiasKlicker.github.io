@@ -58,7 +58,7 @@ module.exports = function clickerView (state) {
       ]),
       h('div.clicker-counter', [
         String(formatNumber(counter, 0)) + ' ',
-        h('span.clicker-counter-label', 'Commits')
+        h('span.clicker-counter-label', 'Nachverfolgbarkeitsverbindungen')
       ]),
       h('div.clicker-incomes', [
         h('span.clicker-income', String(formatNumber(incomePerSecond, 1)) + '/s'),

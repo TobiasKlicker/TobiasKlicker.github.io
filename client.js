@@ -1660,12 +1660,12 @@ module.exports={
   "systems": {
     "title": "Systeme",
     "buttonText": "Systeme kaufen",
-    "description": "Systeme generieren Commits über Zeit.",
+    "description": "Systeme generieren Nachverfolgbarkeitsverbindungen über Zeit.",
     "items": [
       {
         "key": "maven",
         "displayText": "Maven installieren",
-        "description": "Generiert 0,2 Commits pro Sekunde",
+        "description": "Generiert 0,2 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 10,
         "costFactor": 1.2,
         "income": 0.2
@@ -1673,7 +1673,7 @@ module.exports={
       {
         "key": "uml",
         "displayText": "UML-Diagramm malen",
-        "description": "Generiert 1 Commit pro Sekunde",
+        "description": "Generiert 1 Nachverfolgbarkeitsverbindung pro Sekunde",
         "initialCost": 100,
         "costFactor": 1.3,
         "income": 1
@@ -1681,7 +1681,7 @@ module.exports={
       {
         "key": "java-update",
         "displayText": "Java-Update installieren",
-        "description": "Generiert 5 Commits pro Sekunde",
+        "description": "Generiert 5 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 1330,
         "costFactor": 1.5,
         "income": 5
@@ -1689,7 +1689,7 @@ module.exports={
       {
         "key": "jmjrst",
         "displayText": "Neue JMJRST-Version",
-        "description": "Generiert 125 Commits pro Sekunde",
+        "description": "Generiert 125 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 18080,
         "costFactor": 1.3,
         "income": 125
@@ -1697,7 +1697,7 @@ module.exports={
       {
         "key": "spec",
         "displayText": "Pflichtenheft schreiben",
-        "description": "Generiert 800 Commits pro Sekunde",
+        "description": "Generiert 800 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 290000,
         "costFactor": 1.1,
         "income": 800
@@ -1705,7 +1705,7 @@ module.exports={
       {
         "key": "parallel",
         "displayText": "iMage parallelisieren",
-        "description": "Generiert 1500 Commits pro Sekunde",
+        "description": "Generiert 1500 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 1500000,
         "costFactor": 1.2,
         "income": 1500
@@ -1713,7 +1713,7 @@ module.exports={
       {
         "key": "rcs",
         "displayText": "Neue RCS-Version entwickeln",
-        "description": "Generiert 25000 Commits pro Sekunde",
+        "description": "Generiert 25000 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 40000000,
         "costFactor": 1.15,
         "income": 25000
@@ -1721,7 +1721,7 @@ module.exports={
       {
         "key": "threadpool",
         "displayText": "Fadenschwimmbecken aufsetzen",
-        "description": "Generiert 99999 Commits pro Sekunde",
+        "description": "Generiert 99999 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 333000000,
         "costFactor": 1.05,
         "income": 99999
@@ -1731,12 +1731,12 @@ module.exports={
   "skills": {
     "title": "Fähigkeiten",
     "buttonText": "Fähigkeiten erwerben",
-    "description": "Fähigkeiten generieren mehr Commits pro Klick.",
+    "description": "Fähigkeiten generieren mehr Nachverfolgbarkeitsverbindungen pro Klick.",
     "items": [
       {
         "key": "git-article",
         "displayText": "Git-Artikel lesen",
-        "description": "Generiert 1 Commit pro Klick",
+        "description": "Generiert 1 Nachverfolgbarkeitsverbindung pro Klick",
         "initialCost": 100,
         "costFactor": 1.4,
         "income": 1
@@ -1744,7 +1744,7 @@ module.exports={
       {
         "key": "oop",
         "displayText": "OOP-Guru werden (Besuchermuster!!1!)",
-        "description": "Generiert 5 Commits pro Klick",
+        "description": "Generiert 5 Nachverfolgbarkeitsverbindungen pro Klick",
         "initialCost": 1500,
         "costFactor": 1.1,
         "income": 5
@@ -1752,7 +1752,7 @@ module.exports={
       {
         "key": "coverage",
         "displayText": "110% Quelltext-Abdeckung erreichen",
-        "description": "Generiert 125 Commits pro Klick",
+        "description": "Generiert 125 Nachverfolgbarkeitsverbindungen pro Klick",
         "initialCost": 20000,
         "costFactor": 1.8,
         "income": 125
@@ -1760,7 +1760,7 @@ module.exports={
       {
         "key": "suit",
         "displayText": "Anzug tragen",
-        "description": "Generiert 230 Commits pro Klick",
+        "description": "Generiert 230 Nachverfolgbarkeitsverbindungen pro Klick",
         "initialCost": 45000,
         "costFactor": 1.4,
         "income": 230
@@ -1768,7 +1768,7 @@ module.exports={
       {
         "key": "npp",
         "displayText": "Notizbuch++-Benutzer konvertieren",
-        "description": "Generiert 800 Commits pro Klick",
+        "description": "Generiert 800 Nachverfolgbarkeitsverbindungen pro Klick",
         "initialCost": 333000,
         "costFactor": 1.4,
         "income": 800
@@ -1776,7 +1776,7 @@ module.exports={
       {
         "key": "peer",
         "displayText": "Paarprogrammierung",
-        "description": "Generiert 5000 Commits pro Klick",
+        "description": "Generiert 5000 Nachverfolgbarkeitsverbindungen pro Klick",
         "initialCost": 42000000,
         "costFactor": 1.5,
         "income": 5000
@@ -1911,7 +1911,7 @@ module.exports = function render (state) {
       main = clickerView(state);
       break;
     case 'how-to-play':
-      main = textView('Wie man spielt', 'Klicken Sie auf das Bild, um Commits zu erhalten. Eignen Sie sich neue Fähigkeiten an, um mehr Commits pro Klick zu bekommen. Kaufen Sie Systeme für ein stetiges Einkommen. Das war\'s, haben Sie viel Spaß!');
+      main = textView('Wie man spielt', 'Klicken Sie auf das Bild, um Nachverfolgbarkeitsverbindungen zu erhalten. Eignen Sie sich neue Fähigkeiten an, um mehr Nachverfolgbarkeitsverbindungen pro Klick zu bekommen. Kaufen Sie Systeme für ein stetiges Einkommen. Das war\'s, haben Sie viel Spaß!');
       break;
     case 'about':
       main = textView('Über', 'Dieses Projekt habe ich in einer Vorlesung begonnen. Es soll niemanden angreifen; falls Sie Fragen oder Vorschläge haben, schreiben Sie mir doch einen E-Brief an paul (Punkt) brinkmeier (Bei) gmail (Punkt) com.');
@@ -1925,7 +1925,7 @@ module.exports = function render (state) {
     h('section.topbar', [
       h('div.container', [
         h('h1.topbar-title', [
-          rainbowSpans('Tichy-Klicker')
+          rainbowSpans('Tobias-Klicker')
         ]),
         h('div.topbar-links', [
           h('a.topbar-link', {
@@ -2355,7 +2355,7 @@ module.exports = function clickerView (state) {
       ]),
       h('div.clicker-counter', [
         String(formatNumber(counter, 0)) + ' ',
-        h('span.clicker-counter-label', 'Commits')
+        h('span.clicker-counter-label', 'Nachverfolgbarkeitsverbindungen')
       ]),
       h('div.clicker-incomes', [
         h('span.clicker-income', String(formatNumber(incomePerSecond, 1)) + '/s'),
@@ -2442,7 +2442,7 @@ module.exports = function shopView (shopName, state) {
             actions.setPage('clicker');
           }
         }, 'Zurück'),
-        h('div.shop-menu-info', formatNumber(counter, 0) + ' Commits')
+        h('div.shop-menu-info', formatNumber(counter, 0) + ' Nachverfolgbarkeitsverbindungen')
       ]),
       h('h2.shop-title', shop.title),
       h('div.shop-description', shop.description),
@@ -2460,7 +2460,7 @@ module.exports = function shopView (shopName, state) {
               e.target.blur();
               actions.buy(shopName, item.key);
             }
-          }, 'Kaufen (' + formatNumber(cost, 0) + ' Commits)')
+          }, 'Kaufen (' + formatNumber(cost, 0) + ' Nachverfolgbarkeitsverbindungen)')
         ]);
       }))
     ])
