@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-client": "browserify src/client/main.js -o client.js"
   },
-  "author": "Paul Brinkmeier",
+  "author": "SDQ",
   "license": "WTFPL",
   "dependencies": {
     "virtual-dom": "^2.1.1"

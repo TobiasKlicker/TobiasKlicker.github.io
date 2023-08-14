@@ -1664,7 +1664,7 @@ module.exports={
     "items": [
       {
         "key": "maven",
-        "displayText": "Maven installieren",
+        "displayText": "Kaffemaschine reinigen",
         "description": "Generiert 0,2 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 10,
         "costFactor": 1.2,
@@ -1672,7 +1672,7 @@ module.exports={
       },
       {
         "key": "uml",
-        "displayText": "UML-Diagramm malen",
+        "displayText": "Programmiersprache wechseln",
         "description": "Generiert 1 Nachverfolgbarkeitsverbindung pro Sekunde",
         "initialCost": 100,
         "costFactor": 1.3,
@@ -1680,7 +1680,7 @@ module.exports={
       },
       {
         "key": "java-update",
-        "displayText": "Java-Update installieren",
+        "displayText": "MtG-Booster kaufen",
         "description": "Generiert 5 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 1330,
         "costFactor": 1.5,
@@ -1688,7 +1688,7 @@ module.exports={
       },
       {
         "key": "jmjrst",
-        "displayText": "Neue JMJRST-Version",
+        "displayText": "Schorle mischen",
         "description": "Generiert 125 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 18080,
         "costFactor": 1.3,
@@ -1696,7 +1696,7 @@ module.exports={
       },
       {
         "key": "spec",
-        "displayText": "Pflichtenheft schreiben",
+        "displayText": "KI-Modell trainieren",
         "description": "Generiert 800 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 290000,
         "costFactor": 1.1,
@@ -1704,7 +1704,7 @@ module.exports={
       },
       {
         "key": "parallel",
-        "displayText": "iMage parallelisieren",
+        "displayText": "In Urlaub fahren",
         "description": "Generiert 1500 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 1500000,
         "costFactor": 1.2,
@@ -1712,7 +1712,7 @@ module.exports={
       },
       {
         "key": "rcs",
-        "displayText": "Neue RCS-Version entwickeln",
+        "displayText": "1 Jahr länger brauchen",
         "description": "Generiert 25000 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 40000000,
         "costFactor": 1.15,
@@ -1720,7 +1720,7 @@ module.exports={
       },
       {
         "key": "threadpool",
-        "displayText": "Fadenschwimmbecken aufsetzen",
+        "displayText": "Kinderzimmer einrichten",
         "description": "Generiert 99999 Nachverfolgbarkeitsverbindungen pro Sekunde",
         "initialCost": 333000000,
         "costFactor": 1.05,
@@ -1735,7 +1735,7 @@ module.exports={
     "items": [
       {
         "key": "git-article",
-        "displayText": "Git-Artikel lesen",
+        "displayText": "Mit dem Rad fahren",
         "description": "Generiert 1 Nachverfolgbarkeitsverbindung pro Klick",
         "initialCost": 100,
         "costFactor": 1.4,
@@ -1743,7 +1743,7 @@ module.exports={
       },
       {
         "key": "oop",
-        "displayText": "OOP-Guru werden (Besuchermuster!!1!)",
+        "displayText": "Kaffee trinken",
         "description": "Generiert 5 Nachverfolgbarkeitsverbindungen pro Klick",
         "initialCost": 1500,
         "costFactor": 1.1,
@@ -1751,7 +1751,7 @@ module.exports={
       },
       {
         "key": "coverage",
-        "displayText": "110% Quelltext-Abdeckung erreichen",
+        "displayText": "Paper schreiben",
         "description": "Generiert 125 Nachverfolgbarkeitsverbindungen pro Klick",
         "initialCost": 20000,
         "costFactor": 1.8,
@@ -1759,7 +1759,7 @@ module.exports={
       },
       {
         "key": "suit",
-        "displayText": "Anzug tragen",
+        "displayText": "M11 essen",
         "description": "Generiert 230 Nachverfolgbarkeitsverbindungen pro Klick",
         "initialCost": 45000,
         "costFactor": 1.4,
@@ -1767,7 +1767,7 @@ module.exports={
       },
       {
         "key": "npp",
-        "displayText": "Notizbuch++-Benutzer konvertieren",
+        "displayText": "SAUF Aufgaben verteilen",
         "description": "Generiert 800 Nachverfolgbarkeitsverbindungen pro Klick",
         "initialCost": 333000,
         "costFactor": 1.4,
@@ -1775,7 +1775,7 @@ module.exports={
       },
       {
         "key": "peer",
-        "displayText": "Paarprogrammierung",
+        "displayText": "Eine 7 bezwingen",
         "description": "Generiert 5000 Nachverfolgbarkeitsverbindungen pro Klick",
         "initialCost": 42000000,
         "costFactor": 1.5,
@@ -1914,7 +1914,7 @@ module.exports = function render (state) {
       main = textView('Wie man spielt', 'Klicken Sie auf das Bild, um Nachverfolgbarkeitsverbindungen zu erhalten. Eignen Sie sich neue Fähigkeiten an, um mehr Nachverfolgbarkeitsverbindungen pro Klick zu bekommen. Kaufen Sie Systeme für ein stetiges Einkommen. Das war\'s, haben Sie viel Spaß!');
       break;
     case 'about':
-      main = textView('Über', 'Dieses Projekt habe ich in einer Vorlesung begonnen. Es soll niemanden angreifen; falls Sie Fragen oder Vorschläge haben, schreiben Sie mir doch einen E-Brief an paul (Punkt) brinkmeier (Bei) gmail (Punkt) com.');
+      main = textView('Über', 'Dieses Projekt habe ich beim Hut-Basteln angepasst. Es soll niemanden angreifen; falls Sie Fragen oder Vorschläge haben, schreiben Sie mir doch einen E-Brief an SDQ.');
       break;
     case 'shop':
       main = shopView(path[1], state);
@@ -1929,7 +1929,7 @@ module.exports = function render (state) {
         ]),
         h('div.topbar-links', [
           h('a.topbar-link', {
-            href: 'https://github.com/pbrinkmeier/tichy-clicker',
+            href: 'https://github.com/TobiasKlicker/TobiasKlicker.github.io',
             target: '_blank'
           }, 'GitHub'),
           h('span.topbar-link', {

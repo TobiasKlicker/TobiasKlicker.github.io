@@ -19,7 +19,7 @@ module.exports = function render (state) {
       main = textView('Wie man spielt', 'Klicken Sie auf das Bild, um Nachverfolgbarkeitsverbindungen zu erhalten. Eignen Sie sich neue Fähigkeiten an, um mehr Nachverfolgbarkeitsverbindungen pro Klick zu bekommen. Kaufen Sie Systeme für ein stetiges Einkommen. Das war\'s, haben Sie viel Spaß!');
       break;
     case 'about':
-      main = textView('Über', 'Dieses Projekt habe ich in einer Vorlesung begonnen. Es soll niemanden angreifen; falls Sie Fragen oder Vorschläge haben, schreiben Sie mir doch einen E-Brief an paul (Punkt) brinkmeier (Bei) gmail (Punkt) com.');
+      main = textView('Über', 'Dieses Projekt habe ich beim Hut-Basteln angepasst. Es soll niemanden angreifen; falls Sie Fragen oder Vorschläge haben, schreiben Sie mir doch einen E-Brief an SDQ.');
       break;
     case 'shop':
       main = shopView(path[1], state);
@@ -34,7 +34,7 @@ module.exports = function render (state) {
         ]),
         h('div.topbar-links', [
           h('a.topbar-link', {
-            href: 'https://github.com/pbrinkmeier/tichy-clicker',
+            href: 'https://github.com/TobiasKlicker/TobiasKlicker.github.io',
             target: '_blank'
           }, 'GitHub'),
           h('span.topbar-link', {
